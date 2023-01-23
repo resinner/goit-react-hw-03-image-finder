@@ -1,4 +1,4 @@
-// Стили компонента SearchForm
+// Стилі компонента SearchForm
 
 .SearchForm {
   display: flex;
@@ -15,7 +15,7 @@
   width: 48px;
   height: 48px;
   border: 0;
-  background-image: url('https://image.flaticon.com/icons/svg/149/149852.svg');
+  background-color: blueviolet;
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
@@ -57,4 +57,9 @@
     font: inherit;
     font-size: 1rem;
   }
+}
+
+.icon {
+  size: 16px;
+  fill: #fff;
 }

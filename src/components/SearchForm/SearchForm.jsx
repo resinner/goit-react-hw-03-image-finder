@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { AiOutlineZoomOut } from 'react-icons/ai';
 import PropTypes from 'prop-types';
 import styles from './SearchForm.module.scss';
 
@@ -31,7 +32,7 @@ const SearchFrom = ({ onSearch }) => {
   return (
     <form className={styles.SearchForm} onSubmit={handleSubmit}>
       <button type="submit" className={styles['SearchForm-button']}>
-        <span className={styles['SearchForm-button-label']}>Search</span>
+        <AiOutlineZoomOut className={styles.icon}/>
       </button>
 
       <input
@@ -95,7 +96,8 @@ export default SearchFrom;
 //     return (
 //       <form className={styles.SearchForm} onSubmit={this.handleSubmit}>
 //         <button type="submit" className={styles['SearchForm-button']}>
-//           <span className={styles['SearchForm-button-label']}>Search</span>
+          // <span className={styles['SearchForm-button-label']}>Search</span>
+  // <AiOutlineZoomOut className={styles.icon} />;
 //         </button>
 
 //         <input
